@@ -1,10 +1,9 @@
 /* nav bar css-------------------------------------------------- */
 *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
+   
+    margin: 0%;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 body{
     font-family: monospace;
@@ -59,6 +58,54 @@ display: none;
     display: none;
 
  }
+ /* ***************** Main Content **************** */
+
+ /* ************** Site Title ************* */
+ 
+ main .site-title{
+     background-image: url(../images/image2.jpg);
+     background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+ }
+ 
+ main .site-title .site-backgraound{
+     padding-top: 10rem;
+     text-align: center;
+     color: var(--bg-color);
+ }
+ 
+ main .site-title h1,h3{
+    margin: .3rem;
+ }
+ 
+ h3{
+     
+     color: white;
+ }
+ 
+ h1 {
+ color: red;
+ }
+ 
+ 
+ main .site-title .btn{
+     margin: 1.8rem;
+     background: rgb(5, 216, 244);
+ }
+ 
+ 
+ 
+ main .site-title .btn:hover{
+     background: transparent;
+     border: 3px solid var(--white);
+     background-color: var(--bg-color);
+     color:var(--white);
+ }
+ 
+ 
+ /* ******X******** Site Title *******X****** */
  @media (max-width:952px) {
     label.logo{
         font-size: 30px;
@@ -103,53 +150,4 @@ a:hover,a.active{
 }
  } 
  /* ------------------------------------------------------------------------------------------------------------- */
- /* Home wallpaper  */
- * ***************** Main Content **************** */
 
- /* ************** Site Title ************* */
- 
- main .site-title{
-     background: url('..//images/image1.jpg');
-     background-size: cover;
-     height: 110vh;
-     display: flex;
-     justify-content: center;
-     border-bottom:.5rem solid var(--bg-color) ;
- }
- 
- main .site-title .site-backgraound{
-     padding-top: 10rem;
-     text-align: center;
-     color: var(--bg-color);
- }
- 
- main .site-title h1,h3{
-    margin: .3rem;
- }
- 
- h3{
-     
-     color: white;
- }
- 
- h1 {
- color: red;
- }
- 
- 
- main .site-title .btn{
-     margin: 1.8rem;
-     background: rgb(5, 216, 244);
- }
- 
- 
- 
- main .site-title .btn:hover{
-     background: transparent;
-     border: 3px solid var(--white);
-     background-color: var(--bg-color);
-     color:var(--white);
- }
- 
- 
- /* ******X******** Site Title *******X****** */
