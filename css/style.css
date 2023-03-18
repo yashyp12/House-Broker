@@ -5,14 +5,13 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
-body{
-    font-family: monospace;
-}
+
 
 nav{
     background-color:black;
-    height: 80px;
+    height: auto;
     width: 100%;
+   font-family: monospace;
 }
 label.logo{
 color:skyblue;
@@ -82,17 +81,21 @@ display: none;
  
  h3{
      
-     color: white;
+     color: black;
+     font-size: 3rem;
  }
  
  h1 {
  color: red;
+ font-size: 9rem;
  }
  
  
  main .site-title .btn{
      margin: 1.8rem;
      background: rgb(5, 216, 244);
+     border-radius: .9rem;
+     font-size: 1.5rem;
  }
  
  
