@@ -83,13 +83,13 @@ display: none;
     margin: .3rem;
  }
  
- h3{
+.site-title h3{
      
      color: black;
      font-size: 3rem;
  }
  
- h1 {
+.site-title h1 {
  color: red;
  font-size: 9rem;
  }
@@ -158,3 +158,73 @@ a:hover,a.active{
  } 
  /* ------------------------------------------------------------------------------------------------------------- */
 
+/*--------------------------card section------------------*/
+.trainung-section{
+    width: 100%;
+    background: url("../images/banner-bg.jpg") center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.trainung-section h1{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 25px 0px;
+
+}
+.container{
+    width: 1170x;
+    margin: auto;
+    justify-content: space-around;
+    flex: wrap;
+    display: flex;
+
+}
+.training-items{
+    flex-basis: 30%;
+margin: 10px  0px;
+padding: 20px 0px;
+box-shadow: 0px 0px 10px 3px lightgray;
+background:white;
+text-align: center;
+}
+.training-items h3{
+    padding: 10px 0px;
+    font-size: 30px;
+}
+.training-items h1{
+    padding: 10px 0px;
+    font-size: 30px;
+}
+.training-items p{
+    font-size: 14px;
+    padding: 10px;
+}
+.training-items button{
+    background: blue;
+    padding: 10px 25px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.training-items:hover{
+    background-color: #FFDEAD;
+}
+.training-items:hover h3,.training-items:hover p{
+    color:black;
+}
+ button:hover{
+    background: rgb(0,3,255);
+    background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+}
+
+@media only screen and (min-width:200px) and (max-width: 767px){
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .training-items{
+        margin: 10px;
+    }
+}
+/*---------------x--x--------card section -----x--x-------/*
