@@ -71,6 +71,7 @@ display: none;
     height: 100vh;
     display: flex;
     justify-content: center;
+    border-bottom: .3rem solid black;
  }
  
  main .site-title .site-backgraound{
