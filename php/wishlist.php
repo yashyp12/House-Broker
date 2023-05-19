@@ -13,13 +13,7 @@ try {
     die('Database connection failed: ' . $e->getMessage());
 }
 
-// Get wishlist items for a specific user
-$user_id = 1; // Replace with the logged-in user's ID
-$query = "SELECT property_id FROM wishlist WHERE user_id = :user_id";
-$stmt = $pdo->prepare($query);
-$stmt->bindParam(':user_id', $user_id, PDO::PARAM_INT);
-$stmt->execute();
-$wishlist_items = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
 
 // Display wishlist items
 if (count($wishlist_items) > 0) {
